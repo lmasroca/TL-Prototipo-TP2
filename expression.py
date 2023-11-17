@@ -85,7 +85,7 @@ class Id(Expression):
         self.op1 = op1
 
     def evaluate(self):
-        return 'Char(' + self.op1 + ')'
+        return 'Char(\"' + self.op1 + '\")'
 
 # class Sum(Expression):
 #     def __init__(self, op1, op2):
